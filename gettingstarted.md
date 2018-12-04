@@ -4,13 +4,11 @@ The short description should be a single, concise paragraph that contains one or
 Briefly mention what the user's learning goal is and include the following SEO keywords in the title short description: EnOS™™, ServiceName, tutorial.
 -->
 
-A typical flow to use EnOS™™ for application development is as follows:
+EnOS平台上应用管理的大致流程如下：
 
 
-Step 1: Register and/or purchase an application
+步骤1：注册或购买应用，详见 [应用开发概述](app_mgmt/app_mgmt_overview)。
 
-For more information, see [Application management](app_mgmt/app_mgmt_overview).
+步骤2：调用用EnOS API接口或使用EnOS开发者工具套件开发应用，详见 [EnOS API 简介](enos_apis_overview) 和 [EnOS SDK 简介](sdk_overview)。 
 
-Step 2: Develop the application by using EnOS™™ APIs or SDKs
-
-For more information, see [EnOS™™ APIs](EnOS™_apis/EnOS™_apis_overview).
+步骤3：管理应用，详见 [管理应用](managing_apps)。

@@ -14,7 +14,6 @@
 
    app_dev_overview
    enos_apis_overview
-   rest_api_interpretation
    sdk_overview
 
 .. toctree::
@@ -29,13 +28,14 @@
    :caption: 操作
 
    managing_apps
+   call_enos_api
    generating_signature
 
 .. toctree::
    :maxdepth: 1
-   :caption: Related services
+   :caption: 参考信息
 
-   Device connection <https://docs.envisioniot.com/docs/device-connection/zh_CN/latest/deviceconnection_overview.html>
+   设备接入 <https://docs.envisioniot.com/docs/device-connection/zh_CN/latest/deviceconnection_overview.html>
    test/index
 
 Downloads
