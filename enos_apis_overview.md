@@ -16,8 +16,8 @@ EnOS系统为开发者提供如下接口服务：
 
 EnOS REST API是基于HTTP协议来调用的。开发者可以直接使用系统提供的官方SDK（支持Java语言，包含了请求的封装，签名加密，响应解释，性能优化等）来调用，也可以根据约定的协议来封装HTTP请求进行调用。
 
-- **使用EnOS API SDK**: EnOS系统提供的官方SDK支持java语言，包含了请求的封装，签名加密，响应解释，性能优化等功能，只需很少的编程工作，就可方便地调用EnOS API。使用EnOS API SDK的详细步骤，请参考[EnOS Java SDK 快速入门](gettingstarted_sdk)。
-- **手动封装HTTP请求**: 如果不使用EnOS API SDK，也可以根据约定的协议来封装HTTP请求调用API，请参考[调用 EnOS REST API](call_enos_api)。
+- **使用EnOS Service SDK**: EnOS系统提供的官方SDK支持java语言，包含了请求的封装，签名加密，响应解释，性能优化等功能，只需很少的编程工作，就可方便地调用EnOS REST API。使用EnOS Service SDK的详细步骤，请参考[EnOS SDK 快速入门](gettingstarted_sdk)。
+- **手动封装HTTP请求**: 如果不使用EnOS Service SDK，也可以根据约定的协议来封装HTTP请求调用API，请参考[调用 EnOS REST API](call_enos_api)。
 
  以下是大致的API调用过程示意图：
 
@@ -26,4 +26,4 @@ EnOS REST API是基于HTTP协议来调用的。开发者可以直接使用系统
 ## 参考
 
 - [EnOS REST API 快速入门](gettingstarted_api)
-- [EnOS Java SDK 快速入门](gettingstarted_sdk)
+- [EnOS SDK 快速入门](gettingstarted_sdk)

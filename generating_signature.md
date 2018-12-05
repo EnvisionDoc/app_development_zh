@@ -1,12 +1,12 @@
 # API签名算法
 
-为了防止API调用过程中被恶意篡改或盗用，开发者需要根据accessKey、secretKey以及请求参数生成签名，服务端会对签名进行验证，签名不合法的请求将会被拒绝。目前EnOS API采用的签名方法为SHA-1。
+为了防止API调用过程中被恶意篡改或盗用，开发者需要根据 `accessKey`，`secretKey` 以及请求参数生成签名，服务端会对签名进行验证，签名不合法的请求将会被拒绝。目前EnOS API采用的签名方法为SHA-1。
 
 ## 算法说明
 
 使用SHA-1签名算法生成签名的步骤如下：
 
-1. 对URL参数（包括requestTimestamp）和application/x-www-form-urlencoded类型的表单参数进行字典升序排列。
+1. 对URL参数（包括 `requestTimestamp` 和 `application/x-www-form-urlencoded` 类型的表单参数）进行字典升序排列。
 
 2. 将以上排序后的参数表进行字符串连接，如：
 
@@ -16,7 +16,7 @@
 
 3. 如果请求带有JSON类型的body，把整个body当做字符串拼接到上一步的字符串后面。
 
-4. 将accessKey作为前缀，将secretKey作为后缀，对该字符串采用utf-8编码，使用签名算法对编码后的字节流进行摘要，并转换成16进制编码，如：
+4. 将 `accessKey` 作为前缀，将 `secretKey` 作为后缀，对该字符串采用utf-8编码，使用签名算法对编码后的字节流进行摘要，并转换成16进制编码，如：
 
    ```
    <app_key><key1value1key2value2key3value3...keyNvalueN><app_secret>
@@ -64,10 +64,10 @@
 
 若访问API过程中出现 `Signature verification failed` 错误提示，常见原因如下：
 
-1.  accessKey与secretKey不匹配
+1.  `accessKey` 与 `secretKey`不匹配
 2.  签名方法有误
 3.  生成签名时，中文的参数值没有先转换为UTF8编码
 
 ## 参考
 
-- [Getting started with EnOS REST APIs](gettingstarted_api)
+- [EnOS REST API 快速入门](gettingstarted_api)

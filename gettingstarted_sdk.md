@@ -1,26 +1,30 @@
-# EnOS Java SDK 快速入门
+# EnOS SDK 快速入门
 
-欢迎使用EnOS开发者工具套件（SDK）。EnOS系统Java SDK让您不用复杂编程即可完成资产接入、资产数据存储、资产数据读取等服务。本文介绍如何快速获取EnOS Java SDK、准备开发环境、并开始应用开发。
+欢迎使用EnOS开发者工具套件（SDK）。通过使用EnOS系统SDK，不用复杂编程即可完成资产接入、资产数据存储、资产数据读取等服务。本文以EnOS Service SDK为例，介绍如何快速获取EnOS SDK、准备开发环境、并开始应用开发。
 
 ## 前提条件
 
-在使用EnOS SDK之前，确保您在EnOS系统中拥有授权访问的资源。资源可以是设备、数据、事件、用户帐户等。例如，在使用EnOS API SDK调用某个产品的API前，确保您已经在EnOS 控制台创建了该产品的相关资源。
+在使用EnOS SDK之前，确保您在EnOS系统中拥有授权访问的资源。资源可以是设备、数据、事件、用户帐户等。例如，在使用EnOS SDK调用某个产品的API前，确保您已经在EnOS 控制台创建了该产品的相关资源。
 
 您还需要一对 `accessKey`  和  `secretKey`，即SA账号。 目前SA账号的产生只能由创建应用产生。请在EnOS控制台中的应用管理页面上创建应用并查看对应的SA信息，或联系您的系统管理员。
 
-## 安装 EnOS Java SDK
+## 安装 EnOS SDK
 
-EnOS Java SDK支持1.7以上版本的JDK。您可以通过直接修改Maven项目文件 `pom.xml` 或者在IDE中导入JAR包文件方式来安装EnOS Java SDK。
+安装EnOS SDK的系统环境要求如下：
 
-1. 安装 Java JDK SE 8
-2. 安装**_Maven 3_**
-3. 下载安装 EnOS Java SDK
+- Java：支持1.7以上版本的JDK，安装 Maven 3（推荐版本）。
+- Python：安装 Python 2.7.10 以上版本，并且需要支持 `pip` 。
 
-### 使用Maven（推荐）
+可以通过如下方法安装EnOS SDK：
+
+- Java：通过在 `pom.xml` 文件中添加Maven依赖安装EnOS SDK；Python：通过PIP安装。
+- 从GitHub中央仓库下载SDK源代码安装。
+
+### 使用Maven安装
 
 如果使用Maven管理Java项目，登录中央仓库 http://search.maven.org，然后搜索**com.envisioniot.enos**，找到需要使用的SDK版本。通过在 `pom.xml` 文件中添加Maven依赖安装EnOS SDK。您可以在Maven库中查找各产品的Maven依赖信息。
 
-以EnOS API SDK为例，您只需在 `pom.xml` 中声明这个开发工具包，如下所示： 
+以EnOS Service SDK为例，您只需在 `pom.xml` 中声明这个开发工具包，如下所示： 
 
 ```java
 	<dependency>
@@ -29,17 +33,25 @@ EnOS Java SDK支持1.7以上版本的JDK。您可以通过直接修改Maven项�
     <version>2.1.0</version>
     </dependency>
 ```
-### 在集成开发环境（IDE）中导入JAR文件
+### 通过PIP安装
 
-无论您使用Eclipse还是IntelliJ作为集成开发环境，都可以从GitHub仓库下载SDK源代码，然后通过导入JAR文件的方式安装EnOS Java SDK。以EnOS API SDK为例，通过以下命令下载：
+使用一下命令安装SDK（以EnOS Service SDK为例）：
+
+```
+pip install enos-api-sdk-python
+```
+
+### 下载SDK源代码安装
+
+从GitHub仓库下载SDK源代码安装。以EnOS Service SDK为例，通过以下命令下载：
 
 ```
 git clone https://github.com/EnvisionIot/enos-api-sdk-java.git
 ```
 
 
-## 使用 EnOS Java SDK
-以下这个代码示例展示了使用EnOS API Java SDK的3个主要步骤：
+## 示例：使用EnOS Service SDK for Java
+以下这个代码示例展示了使用EnOS Service SDK for Java的3个主要步骤：
 
 1. 创建并初始化 `EnOSDefaultClient` 实例。
 

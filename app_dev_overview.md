@@ -6,7 +6,7 @@ EnOS平台的应用管理服务有如下功能特点：
 
 **易用性**
 
-通过EnOS平台完成应用注册之后，即可使用平台分配的accessKey调用EnOS API接口开发应用。
+通过EnOS平台完成应用注册之后，即可使用平台分配的 `accessKey` 调用EnOS API接口开发应用。
 
 **安全可靠**
 
@@ -24,11 +24,11 @@ EnOS平台将接入资产的数据、应用开发、和开发API接口统一集�
 
 **accessKey**
 
-调用EnOS API接口，需要传入应用*accessKey*，它可以被看作是创建应用的时候，EnOS平台分配给应用的身份标识。
+调用EnOS API接口，需要传入应用 `accessKey`，它可以被看作是创建应用的时候，EnOS平台分配给应用的身份标识。
 
 **secretKey**
 
-创建应用的时候，EnOS平台分配给应用的与*accessKey*相匹配的应用的密钥。当应用调用EnOS API接口访问资产数据时，需要通过*accessKey*进行身份认证和授权。
+创建应用的时候，EnOS平台分配给应用的与 `accessKey` 相匹配的应用的密钥。当应用调用EnOS API接口访问资产数据时，需要通过 `accessKey` 进行身份认证和授权。
 
 **应用资源**
 
