@@ -35,7 +35,7 @@
 ```
 ### 通过PIP安装
 
-使用一下命令安装SDK（以EnOS Service SDK为例）：
+使用以下命令安装SDK（以EnOS Service SDK为例）：
 
 ```
 pip install enos-api-sdk-python
@@ -51,7 +51,7 @@ git clone https://github.com/EnvisionIot/enos-api-sdk-java.git
 
 
 ## 示例：使用EnOS Service SDK for Java
-以下这个代码示例展示了使用EnOS Service SDK for Java的3个主要步骤：
+以下代码示例展示了使用EnOS Service SDK for Java的3个主要步骤：
 
 1. 创建并初始化 `EnOSDefaultClient` 实例。
 
@@ -98,7 +98,7 @@ git clone https://github.com/EnvisionIot/enos-api-sdk-java.git
 
 ### 示例代码
 
-下代码是以调用  `createProduct`  接口（创建产品）为例。
+以下代码以调用  `createProduct`  接口（创建产品）为例。
 
 ```java
 import com.envisioniot.enos.enosapi.api.request.connectservice.CreateProductRequest;
