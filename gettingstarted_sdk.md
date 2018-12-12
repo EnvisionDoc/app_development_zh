@@ -17,12 +17,12 @@
 
 可以通过如下方法安装EnOS SDK：
 
-- Java：通过在 `pom.xml` 文件中添加Maven依赖安装EnOS SDK；Python：通过PIP安装。
+- Java：通过在 `pom.xml` 文件中添加Maven项目依赖安装EnOS SDK；Python：通过PIP安装。
 - 从GitHub中央仓库下载SDK源代码安装。
 
 ### 使用Maven安装
 
-如果使用Maven管理Java项目，登录中央仓库 http://search.maven.org，然后搜索**com.envisioniot.enos**，找到需要使用的SDK版本。通过在 `pom.xml` 文件中添加Maven依赖安装EnOS SDK。您可以在Maven库中查找各产品的Maven依赖信息。
+如果使用Maven管理Java项目，登录中央仓库 http://search.maven.org，然后搜索**com.envisioniot.enos**，找到需要使用的SDK版本。通过在 `pom.xml` 文件中添加Maven项目依赖安装EnOS SDK。您可以在Maven库中查找各产品的Maven依赖坐标。
 
 以EnOS Service SDK为例，您只需在 `pom.xml` 中声明这个开发工具包，如下所示： 
 
@@ -64,7 +64,7 @@ git clone https://github.com/EnvisionIot/enos-api-sdk-java.git
    EnOSDefaultClient client = new EnOSDefaultClient(serverUrl, accessKey,secretKey,connectTimeout,readTimeout);
    ```
 
-2. 创建API请求并设置参数。在引入多个产品SDK时，有可能存在Request类同名的情况，请注意按照package区分。以 `getPolicy` 接口为例：
+2. 创建API请求并设置参数。在引入多个产品SDK时，有可能存在Request类同名的情况，请注意按照package区分。以 `createProduct` 接口为例：
 
    ```
    Product product = new Product();

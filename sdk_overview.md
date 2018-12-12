@@ -8,7 +8,7 @@ EnOS 设备 SDK 支持设备接入领域的业务需求，包括设备的身份�
 
 ### EnOS Device SDK for MQTT for Java
 
-- [添加 Maven 依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-mqtt/2.1.0) 
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-mqtt/2.1.0) 
 - [从GitHub下载源代码](https://github.com/EnvisionIot/enos-mqtt-sdk-java)
 
 ### EnOS Device SDK for MQTT for Python (Preview Edition)
@@ -27,7 +27,7 @@ EnOS 服务 SDK 支持API请求的封装，签名加密，响应解释，应用�
 
 ### EnOS Service SDK for Java
 
-- [添加 Maven 依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.1.0) 
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.1.0) 
 - [从GitHub下载源代码](https://github.com/EnvisionIot/enos-api-sdk-java)
 
 - [EnOS API 快速入门及 API 文档](gettingstarted_api)
@@ -48,7 +48,7 @@ EnOS 服务 SDK 支持API请求的封装，签名加密，响应解释，应用�
 
 EnOS Appframework Mars SDK 为开发者提供应用管理（包括权限校验体系）和应用开发的框架，同时提供了一套简易开发API接口。
 
-- [添加 Maven 依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-appframework-mars/0.1.0) 
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-appframework-mars/0.1.0) 
 
 ## 参考
 
