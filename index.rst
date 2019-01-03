@@ -35,7 +35,7 @@
    :maxdepth: 1
    :caption: 参考信息
 
-   设备接入 <https://docs.envisioniot.com/docs/device-connection/zh_CN/latest/deviceconnection_overview.html>
+   设备接入 <https://docs.envisioniot.com/docs/device-connection/zh_CN/latest/device_management_overview.html>
    test/index
 
 Downloads
