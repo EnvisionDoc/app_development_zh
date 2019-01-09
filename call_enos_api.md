@@ -7,9 +7,12 @@
 构造API URL需要的信息包括：
 
 1. EnOS API的网关地址（服务URL）：`` https://enos-api-cn1.envisioniot.com/ ``
+
 2. 调用方法：EnOS API的请求方法，例如GET，POST，PUT，DELETE
+
 3. API路径：每个EnOS API的路径，详见API参考文档
-4. 请求参数：包括拼接在URL中的query请求参数以及JSON格式的body请求参数 
+
+4. 请求参数：包括拼接在URL中的query请求参数以及JSON格式的body请求参数
 
 以getProduct（查询产品信息）接口为例，封装的HTTP请求如下：
 
@@ -21,44 +24,33 @@ GET https://enos-api-cn1.envisioniot.com/connectService/products/{productKey}?ac
 
 调用EnOS API需要传入的公共请求参数包括：
 
-<table> 
-  <tr> 
-    <td>参数名称</td> 
-    <td>参数类型</td> 
-    <td>是否必须</td> 
-    <td>参数描述</td> 
-  </tr> 
-    <tr> 
-    <td>Content-Type</td> 
-    <td>String</td> 
-    <td>是</td> 
-    <td>数据提交方式，一般情况下值可设为“application/json;charset=UTF-8”；若执行文件上传或其他表单提交，值设为“multipart/form-data;charset=UTF-8”</td>
-  </tr> 
-  <tr> 
-    <td>accessKey</td> 
-    <td>String</td> 
-    <td>是</td> 
-    <td>服务账号的accessKey，通过创建应用生成</td>
-  </tr> 
-  <tr> 
-    <td>secretKey</td> 
-    <td>String</td> 
-    <td>是</td> 
-    <td>服务账号的secretKey，通过创建应用生成</td>
-  </tr> 
-  <tr> 
-    <td>requestTimestamp</td> 
-    <td>String</td> 
-    <td>是</td> 
-    <td>Unix时间戳，是指从格林威治时间1970年01月01日00时00分00秒(北京时间1970年01月01日08时00分00秒)起至现在的总秒数。</td>
-  </tr> 
-  <tr> 
-    <td>sign</td> 
-    <td>String</td> 
-    <td>是</td> 
-    <td>API输入参数签名结果，签名算法参照下面的介绍。</td>
-  </tr>
-</table>
+.. list-table::
+   :widths: auto
+
+   * - 参数名称
+     - 参数类型
+     - 是否必须
+     - 参数描述
+   * - Content-Type
+     - String
+     - 是
+     - 数据提交方式，一般情况下值可为“application/json;charset=UTF-8”；若执行文件上传或其他表单提交，值设为“multipart/form-data;charset=UTF-8”
+   * - accessKey
+     - String
+     - 是
+     - 服务账号的accessKey，通过创建应用生成
+   * - secretKey
+     - String
+     - 是
+     - 服务账号的secretKey，通过创建应用生成
+   * - requestTimestamp
+     - String
+     - 是
+     - Unix时间戳，是指从格林威治时间1970年01月01日00时00分00秒(北京时间1970年01月01日08时00分00秒)起至现在的总秒数。
+   * - sign
+     - String
+     - 是
+     - API输入参数签名结果，签名算法参照下面的介绍。
 
 ### 业务参数
 
@@ -124,111 +116,67 @@ API调用成功之后，调用结果以JSON格式返回。根据每个API的功�
 
 ### 公共返回参数
 
-<table>
-<tr>
-<th>字段</th>
-<th>数据类型</th>
-<th>描述</th>
-</tr>
-<tr>
-<td>requestId</td>
-<td>String</td>
-<td>系统为当前请求生成的唯一标识</td>
-</tr>
-<tr>
-<td>status</td>
-<td>Int</td>
-<td>状态码，详见状态码表格内解释</td>
-</tr>
-<tr>
-<td>msg</td>
-<td>String</td>
-<td>状态码说明</td>
-</tr>
-<tr>
-<td>submsg</td>
-<td>String</td>
-<td>状态详细说明 </td>
-</tr>
-</table>
+.. list-table::
+   :widths: auto
+
+   * - 字段
+     - 数据类型
+     - 描述
+   * - requestId
+     - String
+     - 系统为当前请求生成的唯一标识
+   * - status
+     - Int
+     - 状态码，详见状态码表格内解释
+   * - msg
+     - String
+     - 状态码说明
+   * - submsg
+     - String
+     - 状态详细说明
 
 ### 状态码列表
 
-<table>
-<tr>
-<th>状态码</th>
-<th>描述</th>
-</tr>
-<tr>
-<td class="code">0</td>
-<td>调用成功</td>
-</tr>
-<tr>
-<td class="code">400</td>
-<td>参数错误</td>
-</tr>
-<tr>
-<td class="code">401</td>
-<td>未认证的请求，比如accessKey和secretKey对不上</td>
-</tr>
-<tr>
-<td class="code">403</td>
-<td>无权限</td>
-</tr>
-<tr>
-<td class="code">404</td>
-<td>资源找不到</td>
-</tr>
-<tr>
-<td class="code">405</td>
-<td>不支持的方法</td>
-</tr>
-<tr>
-<td class="code">409</td>
-<td>资源已存在</td>
-</tr>
-<tr>
-<td class="code">414</td>
-<td>请求体太大</td>
-</tr>
-<tr>
-<td class="code">415</td>
-<td>请求参数超出范围，比如数组参数或字符串参数</td>
-</tr>
-<tr>
-<td class="code">429</td>
-<td>超出配额，或者超过限流</td>
-</tr>
-<tr>
-<td class="code">497</td>
-<td>时间戳或签名验证失败</td>
-</tr>
-<tr>
-<td class="code">498</td>
-<td>资源或API无访问权限</td>
-</tr>
-<tr>
-<td class="code">499</td>
-<td>客户端错误</td>
-</tr>
-<tr>
-<td class="code">500</td>
-<td>服务器内部错误</td>
-</tr>
-<tr>
-<td class="code">501</td>
-<td>API未实现</td>
-</tr>
-<tr>
-<td class="code">503</td>
-<td>API服务不可用</td>
-</tr>
-<tr>
-<td class="code">504</td>
-<td>调用超时</td>
-</tr>
-<tr>
-<td class="code">6xx</td>
-<td>第三方服务定义错误码</td>
-</tr>
-</table>
+.. list-table::
+   :widths: auto
+
+   * - 状态码
+     - 描述
+   * - 0
+     - 调用成功
+   * - 400
+     - 参数错误
+   * - 401
+     - 未认证的请求，比如accessKey和secretKey对不上
+   * - 403
+     - 无权限
+   * - 404
+     - 资源找不到
+   * - 405
+     - 不支持的方法
+   * - 409
+     - 资源已存在
+   * - 414
+     - 请求体太大
+   * - 415
+     - 请求参数超出范围，比如数组参数或字符串参数
+   * - 429
+     - 超出配额，或者超过限流
+   * - 497
+     - 时间戳或签名验证失败
+   * - 498
+     - 资源或API无访问权限
+   * - 499
+     - 客户端错误
+   * - 500
+     - 服务器内部错误
+   * - 501
+     - API未实现
+   * - 503
+     - API服务不可用
+   * - 504
+     - 调用超时
+   * - 6xx
+     - 第三方服务定义错误码
+
+<!--end-->

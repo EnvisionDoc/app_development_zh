@@ -65,7 +65,9 @@
 若访问API过程中出现 `Signature verification failed` 错误提示，常见原因如下：
 
 1.  `accessKey` 与 `secretKey`不匹配
+
 2.  签名方法有误
+
 3.  生成签名时，中文的参数值没有先转换为UTF8编码
 
 ## 参考

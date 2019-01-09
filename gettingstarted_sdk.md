@@ -14,6 +14,7 @@
 
 - Java：支持1.7以上版本的JDK，安装 Maven 3（推荐版本）。
 - Python：安装 Python 2.7.10 以上版本，并且需要支持 `pip` 。
+- C：安装CMake (下载地址：<https://cmake.org/>)。
 
 可以通过如下方法安装EnOS SDK：
 
@@ -24,7 +25,7 @@
 
 如果使用Maven管理Java项目，登录中央仓库 http://search.maven.org，然后搜索**com.envisioniot.enos**，找到需要使用的SDK版本。通过在 `pom.xml` 文件中添加Maven项目依赖安装EnOS SDK。您可以在Maven库中查找各产品的Maven依赖坐标。
 
-以EnOS Service SDK为例，您只需在 `pom.xml` 中声明这个开发工具包，如下所示： 
+以EnOS Service SDK为例，您只需在 `pom.xml` 中声明这个开发工具包，如下所示：
 
 ```java
 	<dependency>
@@ -33,6 +34,7 @@
     <version>2.1.0</version>
     </dependency>
 ```
+
 ### 通过PIP安装
 
 使用以下命令安装SDK（以EnOS Service SDK为例）：
@@ -48,7 +50,6 @@ pip install enos-api-sdk-python
 ```
 git clone https://github.com/EnvisionIot/enos-api-sdk-java.git
 ```
-
 
 ## 示例：使用EnOS Service SDK for Java
 以下代码示例展示了使用EnOS Service SDK for Java的3个主要步骤：

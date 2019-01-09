@@ -3,8 +3,11 @@
 本文介绍如何通过调用EnOS REST API来管理您在EnOS平台上的资源和数据。您也可以通过调用EnOS REST API，开发自有应用来管理资源和数据。调用EnOS REST API的主要步骤如下：
 
 1. 入驻EnOS平台注册应用
+
 2. 获取API文档
+
 3. 调用EnOS API
+
 4. 测试及发布应用
 
 调用EnOS API需要以下3大元素：
@@ -21,26 +24,27 @@
 
 要使用EnOS系统任何资源首先要成为EnOS系统开发者。调用EnOS API，需要通过以下步骤注册应用，获取 `accessKey` 和 `secretKey`。
 
-1. 登录EnOS系统，在页面左侧导航栏点击**应用管理**。
-2. 打开应用管理页面后，点击**注册应用**。
+1. 登录EnOS系统，在页面左侧导航栏点击 **应用管理**。
+
+2. 打开应用管理页面后，点击 **注册应用**。
+
 3. 在应用注册页面，输入应用名和应用描述，选择应用类型。
+
 4. 完成应用注册之后，打开应用详情页面，查看应用的`accessKey` 和 `secretKey`。
 
 ## 获取API文档
 
 EnOS系统提供详细的API描述文档，包括API的调用方法、API路径、参数描述、调用示例、和返回示例。
 
-登录EnOS系统之后，在页面左侧导航栏点击**EnOS API** > **API文档**，即可查看按服务分类的API列表。点击**更多**图标，即可打开每个API的详细文档，如下图所示。
+登录EnOS系统之后，在页面左侧导航栏点击 **EnOS API** > **API文档**，即可查看按服务分类的API列表。点击 **更多** 图标，即可打开每个API的详细文档，如下图所示。
 
-![](media/List_of_APIs.png)
+.. image:: media/List_of_APIs.png
+   :alt: 图1 - 查看EnOS API文档
+   :width: 750px
 
-*图1 - 查看EnOS API文档*
-
-
-
-![](media/Example_of_API_details.png)
-
-*图2 - EnOS API 文档示例*
+.. image:: media/Example_of_API_details.png
+   :alt: 图2 - EnOS API 文档示例
+   :width: 750px
 
 ## 调用EnOS API
 
