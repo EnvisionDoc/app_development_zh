@@ -1,4 +1,4 @@
-# EnOS API 简介
+# EnOS API
 
 EnOS系统向合作伙伴开放涵盖系统各个核心业务流程的REST API接口。基于这些接口，开发者可以向自己的用户提供各类应用，支持智能设备接入、数据获取、数据存储、数据挖掘、数据可视化等业务场景。
 
@@ -23,7 +23,7 @@ EnOS REST API是基于HTTP协议来调用的。开发者可以直接使用系统
  以下是大致的API调用过程示意图：
 
 .. image:: media/api_calling_process.png
-   :width: 650px
+
 
 ## 参考
 

@@ -40,11 +40,11 @@ EnOS系统提供详细的API描述文档，包括API的调用方法、API路径�
 
 .. image:: media/List_of_APIs.png
    :alt: 图1 - 查看EnOS API文档
-   :width: 750px
+   
 
 .. image:: media/Example_of_API_details.png
    :alt: 图2 - EnOS API 文档示例
-   :width: 750px
+   
 
 ## 调用EnOS API
 

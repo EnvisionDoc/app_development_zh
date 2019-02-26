@@ -227,7 +227,7 @@ portalSdk.getDataPermissions();
 
 .. image:: image/company_zh.png
 
-   :width: 400px
+   
 
 #### 注册公有应用
 
@@ -241,7 +241,7 @@ portalSdk.getDataPermissions();
 
 .. image:: image/public_app_zh.png
 
-   :width: 400px
+   
 
 #### 定义应用权限
 
@@ -260,7 +260,7 @@ portalSdk.getDataPermissions();
 
 .. image:: image/app_permission_zh.png
 
-   :width: 400px
+   
 
 #### 为公司分配公有应用
 
@@ -276,7 +276,7 @@ portalSdk.getDataPermissions();
 
    .. image:: image/assign_app_zh.png
 
-      :width: 400px
+      
 
 为公司分配的公有应用将会被列入公司的**应用管理**页面表格中。公司的组织管理员可将分配的公有应用权限开放给用户。
 
@@ -293,7 +293,7 @@ portalSdk.getDataPermissions();
 
 .. image:: image/create_ouadmin_zh.png
 
-   :width: 400px
+   
 
 ### 组织管理员
 
@@ -320,7 +320,7 @@ portalSdk.getDataPermissions();
 注册完成之后，所有已注册的私有应用和分配给组织的公有应用信息会显示在应用管理页面的表格中。在该表格中，可以更新私有应用的状态、编辑应用信息、定义应用权限，如下图所示。
 
 .. image:: image/private_app_zh.png
-   :width: 400px
+   
 
 #### 定义应用权限
 
@@ -341,7 +341,7 @@ portalSdk.getDataPermissions();
 用户账号创建完成之后，所有已创建的用户账号信息会显示在账号管理页面的表格中。在该表格中，可以编辑或删除账号，重置账号密码，或者管理用户的应用权限。如下图所示。
 
 .. image:: image/create_user_zh.png
-   :width: 400px
+   
 
 #### 管理用户权限
 
@@ -358,7 +358,7 @@ portalSdk.getDataPermissions();
 5. 点击**保存**，完成应用权限授权。如下图所示：
 
    .. image:: image/user_permission_zh.png
-      :width: 400px
+      
 
 如需为指定用户设置与组织管理员相似的平台管理权限，可在上图所示的账号管理页面，点击Settings Group。然后选择授权给用户的管理权限，包括用户管理、应用管理、和桌面配置权限。
 
@@ -381,6 +381,6 @@ portalSdk.getDataPermissions();
 用户是应用的实际使用者。在使用组织管理员分配的账号登录系统之后，用户可在桌面查看经授权的应用。打开应用之后，访问经授权的资源。如下图所示。
 
 .. image:: image/user_view.png
-   :width: 400px
+   
 
 <!--end-->

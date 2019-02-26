@@ -3,12 +3,17 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 概念
+   :caption: 概述
 
    app_dev_overview
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 概念
+
+   app_dev_concepts
    enos_apis_overview
    sdk_overview
-   data_subscription_overview
 
 .. toctree::
    :maxdepth: 1
@@ -23,14 +28,12 @@
 
    managing_apps
    call_enos_api
-   generating_signature
 
 .. toctree::
    :maxdepth: 1
    :caption: 参考信息
 
-   设备接入 <https://www.envisioniot.com/docs/device-connection/zh_CN/latest/device_management_overview.html>
-   数据订阅 <https://www.envisioniot.com/docs/data-asset/zh_CN/latest/data_subscription_overview.html>
+   generating_signature
 
 Downloads
 """"""""
