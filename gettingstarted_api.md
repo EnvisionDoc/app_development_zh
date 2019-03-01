@@ -24,9 +24,9 @@
 
 要使用EnOS系统任何资源首先要成为EnOS系统开发者。调用EnOS API，需要通过以下步骤注册应用，获取 `accessKey` 和 `secretKey`。
 
-1. 登录EnOS系统，在页面左侧导航栏点击 **应用管理**。
+1. 登录EnOS系统，在页面左侧导航栏点击 **应用注册**。
 
-2. 打开应用管理页面后，点击 **注册应用**。
+2. 打开应用注册页面后，点击 **新建应用**。
 
 3. 在应用注册页面，输入应用名和应用描述，选择应用类型。
 
@@ -40,11 +40,11 @@ EnOS系统提供详细的API描述文档，包括API的调用方法、API路径�
 
 .. image:: media/List_of_APIs.png
    :alt: 图1 - 查看EnOS API文档
-   
+
 
 .. image:: media/Example_of_API_details.png
    :alt: 图2 - EnOS API 文档示例
-   
+
 
 ## 调用EnOS API
 
