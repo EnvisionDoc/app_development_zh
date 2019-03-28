@@ -1,10 +1,10 @@
 # API签名算法
 
-为了防止API调用过程中被恶意篡改或盗用，开发者需要根据 `accessKey`，`secretKey` 以及请求参数生成签名，服务端会对签名进行验证，签名不合法的请求将会被拒绝。目前EnOS API采用的签名方法为SHA-1。
+为了防止API调用过程中被恶意篡改或盗用，开发者需要根据 `accessKey`，`secretKey` 以及请求参数生成签名，服务端会对签名进行验证，签名不合法的请求将会被拒绝。目前EnOS API采用的签名方法为SHA-256。
 
 ## 算法说明
 
-使用SHA-1签名算法生成签名的步骤如下：
+使用SHA-256签名算法生成签名的步骤如下：
 
 1. 对URL参数（包括 `requestTimestamp` 和 `application/x-www-form-urlencoded` 类型的表单参数）进行字典升序排列。
 
@@ -53,7 +53,7 @@
 // 上述参数/AppKey/AppSecret拼接后字符串连接示例：
 // eos_test_appkeymdmids67c17f7cebd44323b764e853394af5e8%2C70106f0c458e4b3994e741670d6be659pointsINV.GenActivePW%2CINV.APProductiontime_groupDeos_test_secret
 
-// 此处采用SHA-1签名方法并转换为大写
+// 此处采用SHA-256签名方法并转换为大写
         String sign = org.apache.commons.codec.digest.DigestUtils.shaHex(codes).toUpperCase();
 
 //签名结果
