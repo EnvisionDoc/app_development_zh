@@ -34,6 +34,7 @@
    :caption: 参考信息
 
    generating_signature
+   api_authorization_list
 
 Downloads
 """"""""
