@@ -18,7 +18,7 @@
 
 ## 前提条件
 
-调用EnOS API之前，确保您在EnOS系统中拥有授权访问的资源和操作权限。资源可以是设备、模型、数据、事件、用户帐户等，操作可以是Read Only、Control、Edit、FullAccess等。因此，在开始调用EnOS API之前，您通常已经完成了设备连接和数据上传，并且拥有一个用户帐户，该帐户具有通过EnOS IAM功能分配的访问策略。有关EnOS API的权限控制情况，参见[API和权限对应表](/docs/app-development/zh_CN/dev/api_authorization_list)。
+调用EnOS API之前，确保您在EnOS系统中拥有授权访问的资源和操作权限。资源可以是设备、模型、数据、事件、用户帐户等，操作可以是Read、Control、Write、FullAccess等。因此，在开始调用EnOS API之前，您通常已经完成了设备连接和数据上传，并且拥有一个用户帐户，该帐户具有通过EnOS IAM功能分配的访问策略。有关EnOS API的权限控制情况，参见[API和权限对应表](api_authorization_list)。
 
 ## 入驻EnOS平台注册应用
 

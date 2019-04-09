@@ -36,9 +36,3 @@
    generating_signature
    api_authorization_list
 
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/app-development/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/app-development/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/app-development/downloads/epub/latest/
