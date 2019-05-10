@@ -6,7 +6,7 @@
 
 构造API URL需要的信息包括：
 
-1. EnOS API的网关地址（服务URL）：`` https://enos-api-cn1.envisioniot.com/ ``
+1. EnOS API的网关地址（服务URL）：`https://xxxx.envisioniot.com/enosapi`
 
 2. 调用方法：EnOS API的请求方法，例如GET，POST，PUT，DELETE
 
@@ -17,7 +17,7 @@
 以getProduct（查询产品信息）接口为例，封装的HTTP请求如下：
 
 ```
-GET https://enos-api-cn1.envisioniot.com/connectService/products/{productKey}?accessKey={}&requestTimestamp={}&sign={}&orgId={}
+GET https://xxxx.envisioniot.com/enosapi/connectService/products/{productKey}?accessKey={}&requestTimestamp={}&sign={}&orgId={}
 ```
 
 ### 公共参数
@@ -102,7 +102,7 @@ hex(md5(accessKeyExample+orgId123productKey12345requestTimestamp1536560363020+se
 将所有参数名和参数值采用utf-8进行URL编码（参数顺序可随意，但必须要包括签名参数），然后通过GET或POST（含byte[]类型参数）发起请求，如：
 
 ```
-http://http://xxx.envisioniot.com/enosapi/connectService/products/12345?orgId = 123&productKey = 12345&requestTimestamp = 1536560363020&accessKey=accessKeyExample&secretKey=secretKeyExample&sign=4A6936C442CC34C5C42B9E06D97F2FA268B7E52F
+http://xxx.envisioniot.com/enosapi/connectService/products/12345?orgId = 123&productKey = 12345&requestTimestamp = 1536560363020&accessKey=accessKeyExample&secretKey=secretKeyExample&sign=4A6936C442CC34C5C42B9E06D97F2FA268B7E52F
 ```
 
 ### 注意事项

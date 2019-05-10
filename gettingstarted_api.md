@@ -41,14 +41,13 @@ EnOS系统提供详细的API描述文档，包括API的调用方法、API路径�
 .. image:: media/List_of_APIs.png
    :alt: 图1 - 查看EnOS API文档
 
-
 .. image:: media/Example_of_API_details.png
    :alt: 图2 - EnOS API 文档示例
 
 
 ## 调用EnOS API
 
-EnOS API是基于HTTP协议来调用的。您可以直接使用系统提供的官方SDK（支持Java语言，包含了请求的封装，签名加密，响应解释，性能优化等）来调用，也可以根据约定的协议来封装HTTP请求进行调用。详见 [调用EnOS REST API](call_enos_api)。
+EnOS API是基于HTTP协议来调用的。您可以直接使用系统提供的官方SDK（支持Java和Python语言，包含了请求的封装，签名加密，响应解释，性能优化等）来调用，也可以根据约定的协议来封装HTTP请求进行调用。详见 [调用EnOS REST API](call_enos_api)。
 
 ## 测试及发布应用
 
