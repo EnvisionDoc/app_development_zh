@@ -2,23 +2,20 @@
 
 本文介绍如何通过调用EnOS REST API来管理您在EnOS平台上的资源和数据。您也可以通过调用EnOS REST API，开发自有应用来管理资源和数据。调用EnOS REST API的主要步骤如下：
 
-1. 入驻EnOS平台注册应用
-
+1. 登录EnOS控制台注册应用
 2. 获取API文档
-
 3. 调用EnOS API
-
 4. 测试及发布应用
 
 调用EnOS API需要以下3大元素：
 
 - API名称：调用API接口的名称，包括API的路径和业务参数。
-- 应用ID：在EnOS平台注册的应用ID，包括 `accessKey` 和 `secretKey` ， 作为应用或者开发者的身份。
+- 应用SA（service account）：在EnOS平台注册应用的服务账号，包括 `accessKey` 和 `secretKey`， 作为应用或者开发者的身份。
 - 签名：API调用的安全认证方法，为防止API调用过程中被恶意篡改或盗用。签名是根据accessKey、secretKey以及API请求参数生成的。服务端会对签名进行验证，签名不合法的请求将会被拒绝。
 
 ## 前提条件
 
-调用EnOS API之前，确保您在EnOS系统中拥有授权访问的资源和操作权限。资源可以是设备、模型、数据、事件、用户帐户等，操作可以是Read、Control、Write、FullAccess等。因此，在开始调用EnOS API之前，您通常已经完成了设备连接和数据上传，并且拥有一个用户帐户，该帐户具有通过EnOS IAM功能分配的访问策略。有关EnOS API的权限控制情况，参见[API和权限对应表](api_authorization_list)。
+调用EnOS API之前，确保您在EnOS系统中拥有授权访问的资源和操作权限。资源可以是设备、模型、数据、事件、用户帐户等，操作可以是Read、Control、Write、FullAccess等。因此，在开始调用EnOS API之前，您通常已经完成了设备连接和数据上传，并且拥有一个应用服务帐户（SA），该帐户具有通过EnOS IAM功能分配的访问策略（可联系OU管理员为应用服务账号授权）。有关EnOS API的权限控制情况，参见[API和权限对应表](api_authorization_list)。
 
 ## 入驻EnOS平台注册应用
 
