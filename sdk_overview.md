@@ -31,7 +31,7 @@ EnOS 服务 SDK 支持API请求的封装，签名加密，响应解释，应用�
 
 ### EnOS Service SDK for Java
 
-- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.5)
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.6)
 - [从GitHub下载源代码](https://github.com/EnvisionIot/enos-api-sdk-java)
 
 - [EnOS API 快速入门及 API 文档](gettingstarted_api)

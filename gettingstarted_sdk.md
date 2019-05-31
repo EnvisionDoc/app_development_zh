@@ -31,7 +31,7 @@
  <dependency>
     <groupId>com.envisioniot</groupId>
     <artifactId>enos-api</artifactId>
-    <version>2.3.5</version>
+    <version>2.3.6</version>
  </dependency>
 ```
 
