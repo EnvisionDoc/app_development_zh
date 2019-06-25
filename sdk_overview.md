@@ -32,7 +32,12 @@ EnOS API Core SDK 提供调用EnOS API的基础环境，支持同步请求和异
 ### Java Core SDK（Poseidon）
 
 - [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/apim-poseidon/0.1.7)
-- [EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
+
+<!--
+
+[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
+
+-->
 
 ### Python Core SDK（Athena）
 
@@ -42,9 +47,12 @@ EnOS API Core SDK 提供调用EnOS API的基础环境，支持同步请求和异
   pip install aphrodite
   ```
 
-- [EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
 
+<!--
 
+[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
+
+-->
 
 ## EnOS IoT SDK for C
 
