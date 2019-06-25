@@ -32,7 +32,7 @@ EnOS应用开发服务有如下功能特点：
 
 **易用性**
 
-通过EnOS平台完成应用注册之后，即可使用平台分配的 `accessKey` 调用EnOS API接口开发应用。
+通过EnOS平台完成应用注册之后，即可使用平台分配的服务账号SA（ `AccessKey` 和 `SecretKey`）调用EnOS API接口开发应用。
 
 **安全可靠**
 

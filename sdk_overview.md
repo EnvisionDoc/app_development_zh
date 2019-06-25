@@ -1,6 +1,6 @@
 # EnOS SDK
 
-EnOS系统向用户和应用开发者提供一系列开发者工具套件，帮助开发者高效地完成设备接入、设备注册、数据收集、调用EnOS API接口开发应用、以及应用注册等工作。
+EnOS系统向用户和应用开发者提供一系列开发者工具套件，帮助开发者高效地完成设备接入、设备注册、数据收集、订阅设备数据、调用EnOS API接口开发应用等工作。
 
 
 
@@ -25,28 +25,24 @@ EnOS 设备 SDK 支持设备接入领域的业务需求，包括设备的身份�
 
 
 
-## EnOS 服务 SDK
+## EnOS API Core SDK
 
-EnOS 服务 SDK 支持API请求的封装，签名加密，响应解释，应用性能优化等功能，只需很少的编程工作，就可方便地调用EnOS API 开发应用。EnOS API 提供设备连接、物模型、资产、数据、文件等服务。
+EnOS API Core SDK 提供调用EnOS API的基础环境，支持同步请求和异步请求。
 
-### EnOS Service SDK for Java
+### Java Core SDK（Poseidon）
 
-- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-api/2.3.6)
-- [从GitHub下载源代码](https://github.com/EnvisionIot/enos-api-sdk-java)
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/apim-poseidon/0.1.7)
+- [EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
 
-- [EnOS API 快速入门及 API 文档](gettingstarted_api)
-
-### EnOS Service SDK for Python (Preview Edition)
+### Python Core SDK（Athena）
 
 - 通过PIP安装：
 
   ```
-  pip install enos-api-sdk-python
+  pip install aphrodite
   ```
 
-- [从GitHub下载源代码](https://github.com/EnvisionIot/enos-api-sdk-python)
-
-- [EnOS API 快速入门及 API 文档](gettingstarted_api)
+- [EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
 
 
 
@@ -55,6 +51,14 @@ EnOS 服务 SDK 支持API请求的封装，签名加密，响应解释，应用�
 EnOS IoT SDK for C 支持基于X.509证书的身份验证API、设备与云之间通过MQTT协议的数据传输API、以及EnOS云服务API。
 
 - [从GitHub下载源代码](https://github.com/EnvisionIot/enos-iot-sdk-c)
+
+
+
+## EnOS 数据订阅 SDK
+
+EnOS 数据订阅 SDK 支持消费通过EnOS控制台订阅的资产实时数据和告警数据。
+
+- [添加 Maven 项目依赖](https://mvnrepository.com/artifact/com.envisioniot/enos-subscribe/2.2.0)
 
 
 
