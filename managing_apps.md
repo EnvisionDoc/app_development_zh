@@ -61,7 +61,7 @@ EnOS平台支持应用开发者入驻平台注册应用、删除应用、购买�
 
 ### 批量授权应用菜单
 
-在 **菜单管理** 标签页下，点击相应菜单操作栏中的 |authorize|图标，可查看所有购买了本应用的客户，并选择需要给哪些客户授权当前菜单。如下图所示：
+在 **菜单管理** 标签页下，点击相应菜单操作栏中的 |authorize| 图标，可查看所有购买了本应用的客户，并选择需要给哪些客户授权当前菜单。如下图所示：
 
 .. |authorize| image:: media/button_authorize_menu.png
 .. image:: media/menu_authorizing_customer.png
