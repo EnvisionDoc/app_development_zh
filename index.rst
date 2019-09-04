@@ -19,3 +19,9 @@
 
    sdk_overview
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 组态工具
+
+   hmi/index
+
