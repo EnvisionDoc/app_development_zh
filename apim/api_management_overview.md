@@ -39,7 +39,7 @@ API管理主要服务于以下角色：
 
 - IAM
 
-  为APIM提供身份管理、认证、授权、审计等服务。关于IAM的详细内容，请见[IAM](/docs/iam/zh_CN/latest/iam_overview.html)
+  为APIM提供身份管理、认证、授权、审计等服务。关于IAM的详细内容，请见[IAM](/docs/enos/zh_CN/latest/iam/iam_overview.html)
 
 
 

@@ -4,7 +4,7 @@
 
 ## 前提条件
 
-在将画面部署到Web服务器前，需确保画面组态工具应用的SA账号已被授权获取资产数据，否则画面部署到Web服务后，绑定的动态数据不能正常显示。授权SA账号的详细信息，请参考 [管理服务账号](/docs/iam/zh_CN/latest/howto/service_account/managing_service_account.html)。
+在将画面部署到Web服务器前，需确保画面组态工具应用的SA账号已被授权获取资产数据，否则画面部署到Web服务后，绑定的动态数据不能正常显示。授权SA账号的详细信息，请参考 [管理服务账号](/docs/enos/zh_CN/latest/iam/howto/service_account/managing_service_account.html)。
 
 ## 步骤
 
