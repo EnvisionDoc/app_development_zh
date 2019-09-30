@@ -1,8 +1,30 @@
-# EnOS SDK
+# EnOS API 和 SDK
 
-EnOS向用户和应用开发者提供一系列开发者工具套件，帮助开发者不用复杂编程即可高效地完成设备接入、设备注册、数据收集、订阅设备数据、调用EnOS API接口开发应用等工作。
+## EnOS API
+
+EnOS通过以下服务的API接口，开放EnOS的功能和服务：
+
+- 接入服务：开放EnOS系统在设备连接和设备管理领域的业务能力，包括产品和设备的创建和管理。
+- 模型服务：支持搜索和获取组织内模型的详细信息。
+- 资产服务：提供组织内资产的创建、管理、更新等服务。
+- 告警服务：提供资产告警的查询和管理服务。 
+- 资产树服务：提供组织内资产树的创建、管理、更新、查询等服务。
+- TSDB数据服务：提供获取已存储的资产数据服务。
+- TSDB策略服务：提供获取TSDB存储策略配置信息的服务。
+- IAM服务：提供用户帐户生命周期管理，用户身份验证以及EnOS资源访问权限控制等服务。
+- 通用文件服务：提供文件管理服务，包括文件上传，下载，保存和删除。
+
+对EnOS API的详细介绍，访问 **EnOS控制台 > EnOS API**。
+
+.. image:: media/enos_api.png
+
+## EnOS SDK
+
+EnOS向用户和应用开发者提供一系列开发者工具套件，帮助开发者不用复杂编程即可高效地完成设备接入、数据采集、订阅设备数据、访问EnOS数据和服务。
 
 对EnOS SDK的详细介绍、最新版本、及下载地址，访问 **EnOS控制台 > SDK中心**。
+
+.. image:: media/sdk_center.png
 
 
 
@@ -39,7 +61,7 @@ EnOS API Core SDK 提供调用EnOS API的基础环境，支持同步请求和异
 
 
 
-[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
+[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/2.0.9/gettingstarted.html)
 
 
 
@@ -54,7 +76,7 @@ EnOS API Core SDK 提供调用EnOS API的基础环境，支持同步请求和异
 
 
 
-[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/latest/gettingstarted.html)
+[EnOS API 快速入门及 API 文档](/docs/api/zh_CN/2.0.9/gettingstarted.html)
 
 
 

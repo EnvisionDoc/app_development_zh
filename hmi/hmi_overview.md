@@ -34,4 +34,4 @@ EnOS画面组态工具主要服务于以下角色：
 
 ### 设备管理服务
 
-EnOS设备管理服务帮助你快速将物理设备安全连接至EnOS云端并开始数据传输，管理设备生命周期，及将物理世界的资产结构和数据映射至数字世界。[了解更多 >>](/docs/device-connection/zh_CN/latest/device_management_overview.html)
+EnOS设备管理服务帮助你快速将物理设备安全连接至EnOS云端并开始数据传输，管理设备生命周期，及将物理世界的资产结构和数据映射至数字世界。[了解更多 >>](/docs/device-connection/zh_CN/2.0.9/device_management_overview.html)

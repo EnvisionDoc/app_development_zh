@@ -2,7 +2,7 @@
 
 曲线元素一般用于显示和监控连续变化的资产数据，以及数据变化的趋势。
 
-.. note:: 使用曲线元素监控资产数据前，需要提前在EnOS控制台为模型测点配置TSDB存储策略，参考 `配置TSDB存储 </docs/data-asset/zh_CN/latest/configuring_tsdb_storage.html>`__ 。
+.. note:: 使用曲线元素监控资产数据前，需要提前在EnOS控制台为模型测点配置TSDB存储策略，参考 `配置TSDB存储 </docs/data-asset/zh_CN/2.0.9/configuring_tsdb_storage.html>`__ 。
 
 通过以下步骤在作图区插入曲线元素：
 

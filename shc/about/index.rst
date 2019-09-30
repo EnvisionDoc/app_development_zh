@@ -1,16 +1,10 @@
-﻿主要功能
+﻿概述
 =======================
 
-.. contents::
-   :depth: 1
-   :hidden:
-
-EnOS SHC的主要功能如下：
-
 .. toctree::
-   :maxdepth: 1
-   :caption: 功能列表
+   :maxdepth: 2
+   :caption: 概述
 
-   devops
-   container_management
-   governance
+   apaas_overview
+   function/index
+   apaas_concepts

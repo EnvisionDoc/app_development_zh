@@ -72,4 +72,4 @@ EnOS SHC主要服务于以下角色：
 
 ### 应用开发
 
-使用Enos SDK开发应用程序，并通过EnOS API获取存储的数据。[了解更多 >>](/docs/app-development/zh_CN/latest/app_dev_overview.html)
+使用Enos SDK开发应用程序，并通过EnOS API获取存储的数据。[了解更多 >>](/docs/app-development/zh_CN/2.0.9/app_dev_overview.html)

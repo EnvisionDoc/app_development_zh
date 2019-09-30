@@ -55,7 +55,6 @@ OU管理员需按照实际业务需求，如以企业的组织架构或地理位
 
    .. image:: ../media/ou_structure_7.png
 
-   .. image:: ../media/ou_structure_8.png
 
 ## 后续操作
 

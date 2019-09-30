@@ -99,4 +99,4 @@ API消费者需要将应用注册在EnOS的某个OU内，然后向API生产者�
 
 ## 步骤4：通过HTTP客户端消费API
 
-API消费者可以手动封装HTTP请求，参见[调用 EnOS REST API](/docs/app-development/zh_CN/latest/call_enos_api)。
+API消费者可以手动封装HTTP请求，参见[调用 EnOS REST API](/docs/app-development/zh_CN/2.0.9/call_enos_api)。

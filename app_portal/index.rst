@@ -13,6 +13,7 @@
    :maxdepth: 1
    :caption: 操作
 
-   user/index
-   ou_admin/index
+   app_developer/index
    system_admin/index
+   ou_admin/index
+   user/index
