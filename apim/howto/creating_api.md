@@ -45,7 +45,8 @@
 
 配置API后端服务，以EnOS API中[Get Device](/docs/api/zh_CN/latest/connect/get_device.html)的API挂载为例，按照API文档配置参数。
 
-.. image:: media/api_backend.png
+.. image:: ../media/api_backend.png
+
 
 1. 在**API后端服务**页配置以下信息：
    
