@@ -8,7 +8,7 @@
 
 ## 开始前准备
 
-- 拥有一个EnOS账号，并拥有定义API操作需要的相应权限，参考[策略，角色，与权限](/docs/enos/zh_CN/2.0.9/iam/concept/access_policy)。
+- 拥有一个EnOS账号，并拥有定义API操作需要的相应权限，参考[策略，角色，与权限](/docs/enos/zh_CN/2.0.9/iam/concept/access_policy.html)。
 
 
 ## 步骤
@@ -45,7 +45,8 @@
 
 配置API后端服务，以EnOS API中[Get Device](/docs/api/zh_CN/2.0.9/connect/get_device.html)的API挂载为例，按照API文档配置参数。
 
-.. image:: media/api_backend.png
+.. image:: ../media/api_backend.png
+
 
 1. 在**API后端服务**页配置以下信息：
    

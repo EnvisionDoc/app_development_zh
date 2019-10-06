@@ -8,7 +8,7 @@
 
 ## 开始前准备
 
-- 拥有一个EnOS账号，并拥有定义API操作需要的相应权限，参考[策略，角色，与权限](/docs/enos/zh_CN/2.0.9/iam/concept/access_policy)。
+- 拥有一个EnOS账号，并拥有定义API操作需要的相应权限，参考[策略，角色，与权限](/docs/enos/zh_CN/2.0.9/iam/concept/access_policy.html)。
 - 已经完成了[构建API](creating_api)。
 
 ## 步骤

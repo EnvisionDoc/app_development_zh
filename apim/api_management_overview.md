@@ -19,15 +19,15 @@ API管理主要服务于以下角色：
 
 ## 主要功能
 
-- [构建API](creating_api)：创建符合OpenAPI 3.0规范的API。
+- [构建API](howto/creating_api)：创建符合OpenAPI 3.0规范的API。
 
-- [部署API](deploying_api)：部署开发的API供组织内部或第三方使用。
+- [部署API](howto/deploying_api)：部署开发的API供组织内部或第三方使用。
 
-- [备份API](exporting_api)：将已构建的API导出，迁移到其他EnOS环境。
+- [备份API](howto/exporting_api)：将已构建的API导出，迁移到其他EnOS环境。
 
-- [测试API](testing_api)：在发布API前对其进行测试。
+- [测试API](howto/testing_api)：在发布API前对其进行测试。
 
-- [监控API](monitoring_api)：查看API被调用的状况。
+- [监控API](howto/monitoring_api)：查看API被调用的状况。
 
 ## 相关服务
 
