@@ -1,28 +1,21 @@
 # 管理资产
 
-Application Portal支持与EnOS同步数据资产信息，并可为已创建的用户与用户组分配资产访问权限。
+Application Portal支持与EnOS同步资产信息，并可为已创建的用户和用户组分配资产访问权限，用户即可通过应用看到资产的数据。资产权限管理包括以下步骤：
 
-1 . 功能说明
-
-- 资产同步：将资产数据同步更新到系统上
-- 给用户／用户组，手工分配资产访问权限
-
-2 . 名词解释
-
-- 资产权限：用户可通过应用看到相关资产数据
-
-3 . 操作步骤
-
+- 资产同步：将资产数据同步更新到Application Portal
+- 为用户或用户组分配资产访问权限
 
 ## 资产同步
 
-资产同步是将本组织已接入EnOS并被标签标记的资产从开发者平台同步到Application Portal。同步完成后，资产才可被分配给用户。
+资产同步是将本组织已接入EnOS并被标签标记的资产（使用 `auth_unit:true` 标签）从EnOS同步到Application Portal。同步完成后，资产才可被分配给用户。
 
 1. 登录Application Portal管理后台，从导航栏中选择 **资产同步**。
 
 2. 点击 **同步资产**，即可将EnOS上的资产数据同步到Application Portal。
 
-  .. image:: ../media/asset_1.png
+   .. image:: ../media/asset_1.png
+
+.. note:: 将资产同步到Application Portal之前，必须在EnOS控制台为待同步的资产或模型标记 auth_unit:true 的标签。
 
 
 
